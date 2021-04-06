@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+
+    dependencies {
+        classpath "com.sandbox:plugins-sandbox:0.0.1"
+    }
+}
+
+apply plugin: "com.sandbox.db-connections"
+
+
+dbConfig {
+    connections {
+        local {
+            url = "<local url>"
+        }
+
+        dev {
+            url = "<dev url>"
+    }   }
+}

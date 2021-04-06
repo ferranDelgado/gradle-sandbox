@@ -1,0 +1,3 @@
+rootProject.name = 'gradle-sandbox'
+include 'plugins-sandbox'
+include 'external-project'
