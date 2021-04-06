@@ -18,7 +18,7 @@ class DbConnectionsExtension {
     void connections(Action<NamedDomainObjectContainer<DbConnectionInfo>> action) {
         action.execute(connections)
     }
-    //
+
     void connections(Closure<Object> closure) {
         connections.configure(closure)
     }
