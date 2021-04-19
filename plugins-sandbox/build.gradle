@@ -25,5 +25,10 @@ gradlePlugin {
             id = 'com.sandbox.db-connections'
             implementationClass = 'com.sandbox.DbConnectionsPlugin'
         }
+
+        timerTaskPlugin {
+            id = 'com.sandbox.timer.timer-task'
+            implementationClass = 'com.sandbox.timer.TimerTaskPlugin'
+        }
     }
 }
